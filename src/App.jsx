@@ -143,7 +143,7 @@ function App() {
                 style={{ backgroundImage: `url(${discountVoucher})` }}
                 className="w-[70%] md:w-[40%] text-right bg-cover bg-center pr-2 py-1 rounded"
               >
-                <p className="max-[768px]:text-sm text-[18px] leading-[26px] bg-gradient-to-r from-[#954D2E] to-[#5E1212] text-transparent bg-clip-text font-medium">
+                <p className="max-[768px]:text-sm text-[1.125rem] leading-[1.625rem] bg-gradient-to-r from-[#954D2E] to-[#5E1212] text-transparent bg-clip-text font-medium">
                   76.31% Off
                 </p>
               </div>
