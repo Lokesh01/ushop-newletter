@@ -134,8 +134,8 @@ function App() {
                 alt="Haruka All-In-One (AIO) Moisturizer From Japan..."
                 className="max-[768px]:max-w-[150px]"
               />
-              <p className="max-[768px]:text-sm text-xl text-black">
-                Haruka All-In-One (AIO) Moisturizer From Japan...
+              <p className="text-xl text-black overflow-hidden text-ellipsis whitespace-normal line-clamp-2 max-[768px]:text-[0.875rem]">
+                Haruka All-In-One
               </p>
             </div>
             <div className="flex flex-col gap-2">

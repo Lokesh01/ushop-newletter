@@ -674,6 +674,9 @@ img {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: normal;
+  height: 3rem;
+  text-align: left;
+  width: 100%;
 }
 
 @media (max-width: 768px) {
@@ -900,6 +903,7 @@ img {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: normal;
+  height: 3.5rem;
 }
 
 @media (min-width: 768px) {
@@ -965,6 +969,13 @@ img {
   border-radius: 0.375rem;
   text-decoration: none;
   margin-bottom: 1.75rem;
+  width: 90%;
+}
+
+.blog-post img {
+  width: 100%;
+  aspect-ratio: 619 / 231;
+  object-fit: cover;
 }
 
 .blog-post-title {
